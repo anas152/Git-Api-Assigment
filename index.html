@@ -1,27 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Git</title>
-    <link rel="stylesheet" href="files.css/style.css">
-    <link rel="stylesheet" href="files.css/bootstrap.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/files.css/style.css" />
+    <title>Github Profile Search</title>
 </head>
+
 <body>
-    <section class="github-heading" id="form">
-        <h1>Git Hub User Find</h1>
-        <br>
-        <div>  
-            <input type="text" class="user-input" placeholder="Enter the user name">
-            <label class="user-input-lebal" for="gitUsername"></label>
-        </div>  
-        <img  class="user-img" src="https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg" alt="This is user profile photo">
-        <a href="//github.com">git profile </a>
-
-    </section>
-
-
-    <script src="app.js"></script>
+    <form class="inputForm" id="userInput">
+        <h1>Github Profile Search</h1>
+        <input type="text" id="inputBox" autocomplete="off" placeholder="Search a Github User" />
+    </form>
+    <main id="main"></main>
+    <script src="/app.js"></script>
 </body>
+
 </html>

@@ -1,98 +1,56 @@
 body {
-  margin: 0;
-  padding: 0;
   font-family: Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.6;
-  box-sizing: border-box;
-  background: linear-gradient(to right, #34e8dd, #15658f);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #002244; 
+  color: wheat;
 }
 
-.github-heading .user-img {
-  display: block;
-  height: 100px;
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  
+}
+
+.inputForm {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#inputBox {
   width: 300px;
-  object-fit: cover;
+  padding: 10px;
+  font-size: 16px;
   border-radius: 10px;
-  margin-left: auto;
-  margin-right: auto;
+  outline: none;
 }
 
-.github-heading {
-  align-items: center !important;
+.card {
+  background-color: #222;
+  color: wheat;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px auto;
+  width: 300px;
   text-align: center;
 }
 
-.github-heading h1 {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  transition: background-color 0.8s, color 0.8s;
-  display: inline;
-  color : wheat;
-  /* box-shadow: #002244; */
+.avatar {
+  width: 100px;
+  border-radius: 50%;
 }
 
-.github-heading h1:hover {
-  margin-top: 15px;
-  background-color: #8842f051  ;
-  box-shadow:  5px 5px 5px 7px #002244 ;
-  color: wheat ;
+.user-info {
+  margin-top: 10px;
 }
 
-
-.user-input:focus {
-  padding-bottom: 6px;
-  font-weight: 700;
-  border-width: 3px;
-  border-image: linear-gradient(to right, #34e8dd, #15658f);
-  border-image-slice: 1;
-}
-
-.user-input:focus ~ .form__label {
-  position: absolute;
-  top: 0;
+.repo {
   display: block;
-  transition: 0.2s;
-  font-size: 1rem;
+  color: #ffdd57;
+  margin-top: 10px;
+}
+
+.repo:hover {
   color: #34e8dd;
-  font-weight: 700;
 }
 
-.user-input:required,
-.user-input:invalid {
-  box-shadow: none;
-}
-
-
-.user-input {
-  font-family: inherit;
-  width: 100%;
-  border: 0;
-  border-bottom: 2px solid gray;
-  outline: 0;
-  font-size: 1.3rem;
-  color:gray;
-  padding: 7px 0;
-  background: transparent;
-  transition: border-color 0.2s;
-}
-.user-input::placeholder {
-  color: gray;
-}
-
-.user-input:placeholder-shown ~ .form__label {
-  font-size: 1.3rem;
-  cursor: text;
-  top: 20px;
-}
-
-.user-input-label {
-  position: absolute;
-  top: 0;
-  display: block;
-  transition: 0.2s;
-  font-size: 1rem;
-  color: rgb(68, 131, 149);
-}
 
